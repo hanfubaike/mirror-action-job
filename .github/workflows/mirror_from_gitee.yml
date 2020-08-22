@@ -19,7 +19,7 @@ jobs:
         src: gitee/hanfubaike
         dst: github/hanfubaike
         dst_key: ${{ secrets.FALSEEN_PRIVATE_KEY}}
-        dst_token:  ${{ secrets.orgtoken }}
+        dst_token:  ${{ secrets.GITHUBTOKEN }}
         account_type: org
         black_list: "hanfubaike"
 
