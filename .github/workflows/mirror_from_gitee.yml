@@ -28,5 +28,5 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.FALSEEN_PRIVATE_KEY }}
       with:
-        source-repo: 'git@github.com:hanfubaike/hanfubaike.git'
-        destination-repo: 'git@bitbucket.org:hanfubaike/hanfubaike.github.io'
+        source-repo: 'git@gitee.com:hanfubaike/hanfubaike.git'
+        destination-repo: 'git@github.com:hanfubaike/hanfubaike.github.io'
